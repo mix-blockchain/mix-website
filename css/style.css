@@ -6,7 +6,7 @@ small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {outline: none !important;
+table, caption, tbody, tfoot, thead, tr, th, td {outline: none;
 }
 html{
   background:#fff;
@@ -114,7 +114,7 @@ body{
 }
 .changeit {
   background: rgba(0,0,0,.9);
-  padding-bottom: 0 !important;
+  padding-bottom: 0;
 }
 .logo{
   margin-top: 20px;
@@ -205,7 +205,7 @@ border: none;
   height:500px;
 }
 #camera_wrap_1{
-  margin-bottom:0 !important;
+  margin-bottom:0;
   margin-top: 10px;
 }
 .camera_caption h2{
@@ -420,7 +420,7 @@ border: none;
   line-height: 30px;
 }
 .open-nav {
-  display: block !important;
+  display: block;
 }
 
 #benefits h2 {
@@ -474,17 +474,17 @@ border: none;
     display:inline;
   }
   .pic1Ab{
-    margin-bottom:0 !important;
+    margin-bottom:0;
   }
   .pic2Ab{
-    margin-bottom:0 !important;
+    margin-bottom:0;
   }
   #menu {
     display:none;
   }
   #menuF{
-    opacity:0 !important;
-    /*display:none !important;*/
+    opacity:0;
+    /*display:none;*/
   }
   .fixed{
     opacity:0;
@@ -509,11 +509,11 @@ border: none;
 }
 @media screen and (max-width: 460px) {
   .pic2Ab{
-    padding-bottom:0 !important;
+    padding-bottom:0;
     margin-bottom:0;
   }
   .pic1Ab{
-    padding-bottom:0 !important;
+    padding-bottom:0;
     margin-bottom:0;
   }
   .camera_caption h2{
@@ -521,15 +521,15 @@ border: none;
   }
   .about h3{
     text-align:center;
-    margin-top:73px !important;
+    margin-top:73px;
   }
   .about p{
-    margin-top: 30px !important;
+    margin-top: 30px;
     text-align: justify;
   }
   .Ama {
-  margin-top: 280px !important;
-  margin-bottom: 100px !important;
+  margin-top: 280px;
+  margin-bottom: 100px;
 }
   .soc ul li{
     margin-bottom: 20px;
@@ -537,11 +537,11 @@ border: none;
 }
 @media screen and (max-width: 323px){
   .footer .fEmail{
-    border-radius: 4px !important;
+    border-radius: 4px;
     margin-bottom:10px ;
   }	
   .footer .subS{
-    border-radius: 4px !important;
+    border-radius: 4px;
   }
   .news p{
     text-align: justify;
@@ -551,16 +551,16 @@ border: none;
 @media screen and (max-width: 1229px) {
   .cont {
     /*text-align:center;*/
-    margin-left: 0px !important;
+    margin-left: 0px;
   }
   .name {
-  width: 100% !important;
+  width: 100%;
 }
   .Email {
-  width: 100% !important;
+  width: 100%;
 }	
   .ftext .cBtn ul{
-    padding-left:40px !important;
+    padding-left:40px;
   }
   .news p{
     text-align:justify;
@@ -928,8 +928,8 @@ border-radius: 200px;
   font-family: 'Roboto', 'sans-serif';
   font-weight: 700;
   
-  top: 0px !important;
-  left: 0px !important;
+  top: 0px;
+  left: 0px;
   margin-left: 1px;
 }
 .textP h3{
@@ -1120,8 +1120,8 @@ border-radius: 200px;
   z-index: 10;
 }
 .lb ul{
-  margin-left: 14px !important;
-  margin-top: 45px !important;
+  margin-left: 14px;
+  margin-top: 45px;
   display: inline-block;
   margin-bottom: 15px;
 }
@@ -1168,21 +1168,21 @@ border-radius: 200px;
 }
 
  #filter {
-  margin-bottom: 50px !important;
-  margin-left: -37px !important;
-  margin-top: 37px !important;
-  display: inline-block !important;
+  margin-bottom: 50px;
+  margin-left: -37px;
+  margin-top: 37px;
+  display: inline-block;
 }
 #filter  li{
-  margin-bottom: 30px !important;
-  margin-right: 10px !important;
-  border-radius:0!important;
-  background:none!important;
-  padding:0!important;
-  box-shadow: none!important;
-  padding-right: 0!important;
-  padding-left: 0!important;
-  padding-top:0!important;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  border-radius:0;
+  background:none;
+  padding:0;
+  box-shadow: none;
+  padding-right: 0;
+  padding-left: 0;
+  padding-top:0;
 
 
   float:left;
@@ -1232,7 +1232,7 @@ border-radius: 200px;
   margin-top:0;
 }
 .isotope-item{
-  top: 38px !important;
+  top: 38px;
 }
 
 .picsGall{
@@ -1280,7 +1280,7 @@ border-radius: 200px;
   color:#1fcdff;
 }
 .view ul{
-  display:block !important;
+  display:block;
   margin-top: 7px;
   margin-bottom:25px;
   text-align: center;
@@ -1504,8 +1504,8 @@ border-radius: 200px;
 }
 /**/
 .mNews{
-  margin-top: 26px !important;
-  margin-left: -49px !important;
+  margin-top: 26px;
+  margin-left: -49px;
 }
 .line5 .Ama{
   /*margin-top: 127px;
@@ -2283,8 +2283,8 @@ h2 span {
     z-index: 2;
 }
 .isotope-item{
-max-height: 370px !important;
-margin-bottom: 35px !important;
+max-height: 370px;
+margin-bottom: 35px;
 
 }
 .isotope-hidden.isotope-item {
@@ -2293,7 +2293,7 @@ margin-bottom: 35px !important;
 }
 
 .isotope{
-  max-height:100% !important;
+  max-height:100%;
 }
 
 .isotope,
@@ -2469,7 +2469,7 @@ margin-bottom: 35px !important;
         top: -65px; 
         padding:20px 0;
         width:100%;
-    background-color: #101010!important;
+    background-color: #101010;
     }
 
 /**/
