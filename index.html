@@ -10,6 +10,7 @@
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/jquery.smooth-scroll.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
     <link href='///fonts.googleapis.com/css?family=Roboto:400,300,700|Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
@@ -305,45 +306,5 @@ it over the 2000 days at an ever slowing rate. </h3>
       </div>
     </div>
     </div>
-
-  <script type="text/javascript">
-    function init() {
-        window.addEventListener('scroll', function(e){
-            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                shrinkOn = 100,
-                header = document.querySelector('.default');
-            if (distanceY > shrinkOn) {
-                $(header).addClass('changeit');
-            } else {
-                if ($(header).hasClass('changeit')) {
-                    $(header).removeClass('changeit');
-                }
-            }
-      });
-    }
-    window.onload = init();
-    $('body').smoothScroll({
-        delegateSelector: '#menu li a',
-        offset: -150
-    });
-    $('body').smoothScroll({
-        delegateSelector: '#downMenu li a',
-        offset: -150
-    });
-    $('body').smoothScroll({
-        delegateSelector: '#mobilemenu a',
-        offset: -150
-    });
-    $('#logo').smoothScroll();
-  </script>
-  <script type="text/javascript">
-        jQuery(document).ready(function(){
-          jQuery('#nav-icon4').click(function(){
-            jQuery(this).toggleClass('open');
-            jQuery('#mobilemenu').toggleClass('open-nav');
-          });
-        });
-      </script>
   </body>
-  
 </html>
