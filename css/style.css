@@ -358,9 +358,9 @@ border: none;
 }
 
 
-#what h2,
-#technology h2,
-#crowdfunding h2 {
+#what-is-section h2,
+#technology-section h2,
+#crowdfunding-section h2 {
   font-family: 'Roboto', 'sans-serif';
   color: #2f2f2f;
   text-transform: uppercase;
@@ -368,12 +368,12 @@ border: none;
   margin-bottom: 20px;
   font-weight: 700;
 }
-#what h2 span {
+#what-is-section h2 span {
   color: #1fcdff;
   font-weight: 700;
 }
-#what h3,
-#crowdfunding h3 {
+#what-is-section h3,
+#crowdfunding-section h3 {
   font-weight: 300;
   line-height: 30px;
 }
@@ -381,7 +381,7 @@ border: none;
   display: block;
 }
 
-#benefits h2 {
+#benefits-section h2 {
   font-family: 'Roboto', 'sans-serif';
   color: #fff;
   text-transform: uppercase;
@@ -391,8 +391,8 @@ border: none;
   margin-top: -10px;
 }
 
-#network h2,
-#team h2,
+#network-section h2,
+#team-section h2,
 .footer h2 {
   font-family: 'Roboto', 'sans-serif';
   color: #fff;
@@ -402,18 +402,18 @@ border: none;
   font-weight: 700;
   margin-top: -10px;
 }
-#team h2 {
+#team-section h2 {
   margin: 50px auto 30px;
 }
 .footer h2 {
   margin-bottom: 0;
 }
 
-#technology h2,
-#crowdfunding h2 {
+#technology-section h2,
+#crowdfunding-section h2 {
   margin: 40px 0 50px;
 }
-#technology img {
+#technology-section img {
   max-height: 100px;
   margin: 15px 35px;
 }

@@ -14,19 +14,29 @@ jQuery(document).ready(function() {
     }
   });
 
-  jQuery('body').smoothScroll({
-    delegateSelector: '#menu li a',
-    offset: -150
+  // Bind the hashchange event listener
+  $(window).bind('hashchange', function(event) {
+    $.smoothScroll({
+      // Replace '#/' with '#' to go to the correct target
+      scrollTarget: location.hash.replace(/^\#\/?/, '#'),
+      offset: -150
+    });
   });
-  jQuery('body').smoothScroll({
-    delegateSelector: '#downMenu li a',
-    offset: -150
+  $('a[href*="#"]')
+  .bind('click', function(event) {
+    // Remove '#' from the hash.
+    var hash = this.hash.replace(/^#/, '')
+    if (this.pathname === location.pathname && hash) {
+      event.preventDefault();
+      // Change '#' (removed above) to '#/' so it doesn't jump without the smooth scrolling
+      location.hash = '#/' + hash;
+    }
   });
-  jQuery('body').smoothScroll({
-    delegateSelector: '#mobilemenu a',
-    offset: -150
-  });
-  jQuery('#logo').smoothScroll();
+
+  // Trigger hashchange event on page load if there is a hash in the URL.
+  if (location.hash) {
+    $(window).trigger('hashchange');
+  }
 
   jQuery('#nav-icon4').click(function(){
     jQuery(this).toggleClass('open');
