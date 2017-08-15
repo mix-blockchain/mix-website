@@ -216,7 +216,7 @@ border: none;
   letter-spacing: -2px;
 }
 
-#community {
+#community-section {
   margin-top: 50px;
 }
 
@@ -1503,7 +1503,7 @@ textarea {
   color:#fff;
 }
 @media (max-width: 533px) {
-  #community .soc {
+  #community-section .soc {
     margin-bottom: 80px;
   }
 }
@@ -1769,7 +1769,7 @@ textarea {
   margin-top: 15px;
   margin-left: 2px;
 }
-#community .fa {
+#community-section .fa {
   font-size: 17px;
   color: #fff;
 }
