@@ -105,8 +105,8 @@ body{
   color: #434343;
 }
 .footer .read-more,
-#team .read-more,
-#network .read-more {
+#team-section .read-more,
+#network-section .read-more {
   display: block;
     width: 40%;
     margin: auto;
@@ -1028,10 +1028,10 @@ border-radius: 200px;
   font-weight: 300;
 }
 
-#network .col-md-6 img {
+#network-section .col-md-6 img {
   max-height: 263px;
 }
-#network .col-md-12 img {
+#network-section .col-md-12 img {
   max-height: 443px;
 }
 
@@ -2047,15 +2047,15 @@ h2 span {
   .Fresh .col-md-4 {
     margin-bottom: 30px;
   }
-  #network h2 {
+  #network-section h2 {
     margin-top: 30px;
   }
-  #technology img {
+  #technology-section img {
     max-width: 100%;
     margin: 15px auto 0;
     display: block;
   }
-  #network .col-md-12 img {
+  #network-section .col-md-12 img {
     margin: 0 auto 20px;
   }
   .downLine .text-right {
@@ -2201,7 +2201,7 @@ background-color: #101010;
 }
 
 @media (max-width: 580px) {
-  .footer .read-more, #team .read-more, #network .read-more {
+  .footer .read-more, #team-section .read-more, #network-section .read-more {
     width: 100%;
   }
   .see-video,
