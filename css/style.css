@@ -1835,9 +1835,6 @@ h2 span {
 .lineBlack input{
   margin-top: 3px;
 }
-#downMenu{
-  float:right;
-}
 #downMenu li{
   height: 16px;
   border-right:1px solid #343434;
