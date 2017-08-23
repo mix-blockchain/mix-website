@@ -43,4 +43,10 @@ jQuery(document).ready(function() {
     jQuery('#mobilemenu').toggleClass('open-nav');
   });
 
+  jQuery("#iframe1").height(jQuery("#iframe1").width() * 0.4);
+
+  jQuery(window).resize(function() {
+    jQuery("#iframe1").height(jQuery("#iframe1").width() * 0.4);
+  });
+
 });
