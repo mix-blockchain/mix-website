@@ -45,19 +45,19 @@ body {
   border-bottom: 150px solid white;
   border-left: 3000px solid transparent;
 }
-.slider {
+.header {
   color: #fff;
   text-align: center;
   padding: 100px 0 170px;
 }
-.slider h1 {
+.header h1 {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   margin: 20px auto;
   font-size: 80px;
 }
-.slider h2 {
+.header h2 {
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
   font-weight: 300;
@@ -69,7 +69,7 @@ body {
   top: -3px;
   left: 5px;
 }
-.slider hr {
+.header hr {
   border-top: 3px solid #1fcdff;
   width: 50%;
 }
@@ -973,16 +973,16 @@ h2 span {
     width: 100%;
   }
   .see-video,
-  .slider .read-more {
+  .header .read-more {
     display: block;
     margin-bottom: 20px;
   }
-  .slider h1 {
+  .header h1 {
     font-size: 50px;
   }
 }
 @media (max-width: 320px) {
-  .slider h1 {
+  .header h1 {
     font-size: 45px;
   }
 }
