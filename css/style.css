@@ -374,6 +374,23 @@ body {
   line-height: 30px;
   margin-bottom: 20px;
 }
+
+#what-is-section {
+  margin-top: 25px;
+}
+#what-is-section h3 {
+  text-align: center;
+  font-family: 'Roboto', 'sans-serif';
+  font-size: 28px;
+}
+#what-is-section h4 {
+  margin-top: 16px;
+  text-align: center;
+  font-family: 'Roboto', 'sans-serif';
+  font-size: 16px;
+  font-weight: 300;
+}
+
 #mobilemenu.open-nav {
   display: block;
 }
@@ -441,22 +458,6 @@ iframe {
 }
 */
 
-.cBusiness {
-  margin-top: 25px;
-}
-.cBusiness h3 {
-  text-align: center;
-  font-family: 'Roboto', 'sans-serif';
-  font-size: 28px;
-  font-weight: 400;
-}
-.cBusiness h4 {
-  margin-top: 16px;
-  text-align: center;
-  font-family: 'Roboto', 'sans-serif';
-  font-size: 16px;
-  font-weight: 300;
-}
 .centPic {
   margin-top: 57px;
   text-align: center;
