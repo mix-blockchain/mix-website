@@ -432,6 +432,29 @@ body {
   margin: 15px 35px;
 }
 
+#technology-section,
+#crowdfunding-section {
+  margin-top: 8px;
+  text-align: center;
+}
+
+#technology-section,
+#crowdfunding-section h3 {
+  font-size: 28px;
+  color: #2f2f2f;
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: 400;
+}
+
+#technology-section,
+#crowdfunding-section h4 {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #2f2f2f;
+  font-family: 'Roboto', 'sans-serif';
+  font-weight: 300;
+}
+
 iframe {
   width: 100%;
 }
@@ -585,23 +608,6 @@ iframe {
   margin-bottom: 30px;
 }
 
-.wwa {
-  margin-top: 8px;
-  text-align: center;
-}
-.wwa h3 {
-  font-size: 28px;
-  color: #2f2f2f;
-  font-family: 'Roboto', 'sans-serif';
-  font-weight: 400;
-}
-.wwa h4 {
-  margin-top: 15px;
-  font-size: 16px;
-  color: #2f2f2f;
-  font-family: 'Roboto', 'sans-serif';
-  font-weight: 300;
-}
 .team {
   text-align: center;
   margin-top: 46px;
