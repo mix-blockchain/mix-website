@@ -38,7 +38,7 @@ $(document).ready(function() {
     $(window).trigger('hashchange');
   }
 
-  $('#nav-icon4').click(function(){
+  $('#nav-icon').click(function(){
     $(this).toggleClass('open');
     $('#mobilemenu').toggleClass('open-nav');
   });
