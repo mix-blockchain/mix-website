@@ -943,18 +943,18 @@ h2 span {
   padding-top: 30px;
 }
 
-#downMenu li {
+#footer-section ul li {
   height: 16px;
   border-right: 1px solid #343434;
   float: left;
   list-style: none;
 }
 
-#downMenu li:last-child {
+#footer-section ul li:last-child {
   border-right: none;
 }
 
-#downMenu li a {
+#footer-section ul li a {
   padding: 5px;
   text-decoration: none;
   font-size: 14px;
@@ -965,11 +965,11 @@ h2 span {
   margin-bottom: 10px;
 }
 
-#downMenu li:last-child a {
+#footer-section ul li:last-child a {
   padding-right: 0;
 }
 
-#downMenu li a:hover {
+#footer-section ul li a:hover {
   color: #1fcdff;
 }
 
@@ -1020,22 +1020,18 @@ h2 span {
     margin: 0 auto 20px;
   }
 
-  .downLine .text-right {
-    text-align: center;
-  }
-
-  #downMenu {
+  #footer-section ul {
     float: none;
     padding: 0;
     display: inline-block;
   }
 
-  #downMenu ul li {
+  #footer-section ul ul li {
     float: none;
     text-align: center;
   }
 
-  #downMenu li a {
+  #footer-section ul li a {
     padding: 5px;
   }
 
