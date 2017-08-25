@@ -939,18 +939,8 @@ h2 span {
   overflow: hidden;
   height: 100%;
   background: #101010;
-}
-
-.downLine {
-  margin-bottom: 35px;
-  margin-top: 30px;
-}
-
-.downLine p {
-  font-size: 14px;
-  font-family: 'Roboto', 'sans-serif';
-  font-weight: 300;
-  color: #fff;
+  padding-bottom: 35px;
+  padding-top: 30px;
 }
 
 #downMenu li {
