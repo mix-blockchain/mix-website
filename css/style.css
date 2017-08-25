@@ -9,9 +9,11 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
   outline: none;
 }
+
 body {
   font-family: 'Roboto', 'sans-serif';
 }
+
 .default {
   transition-duration: 1s;
   position: fixed;
@@ -19,6 +21,7 @@ body {
   z-index: 99999;
   padding-bottom: 20px;
 }
+
 .headerLine {
   position: relative;
   width: 100%;
@@ -30,6 +33,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
 .headerLine:after {
   content: "";
   position: absolute;
@@ -45,11 +49,13 @@ body {
   border-bottom: 150px solid white;
   border-left: 3000px solid transparent;
 }
+
 .header {
   color: #fff;
   text-align: center;
   padding: 100px 0 170px;
 }
+
 .header h1 {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
@@ -57,6 +63,7 @@ body {
   margin: 20px auto;
   font-size: 80px;
 }
+
 .header h2 {
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
@@ -64,15 +71,18 @@ body {
   margin: 20px 0;
   font-size: 40px;
 }
+
 .logo img {
   position: relative;
   top: -3px;
   left: 5px;
 }
+
 .header hr {
   border-top: 3px solid #1fcdff;
   width: 50%;
 }
+
 .see-video {
   background: #fff;
   color: #434343;
@@ -84,12 +94,14 @@ body {
   position: relative;
   transition: .3s ease all;
 }
+
 .see-video:hover,
 .see-video:focus {
   text-decoration: none;
   background: #1fcdff;
   color: #fff;
 }
+
 .read-more {
   background: #1fcdff;
   color: #fff;
@@ -101,12 +113,14 @@ body {
   position: relative;
   transition: .3s ease all;
 }
+
 .read-more:hover,
 .read-more:focus {
   text-decoration: none;
   background: #fff;
   color: #434343;
 }
+
 .footer .read-more,
 #team-section .read-more,
 #network-section .read-more {
@@ -115,10 +129,12 @@ body {
   margin: auto;
   text-align: center;
 }
+
 .changeit {
   background: rgba(0,0,0,.9);
   padding-bottom: 0;
 }
+
 .logo {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -132,6 +148,7 @@ body {
 .logo span {
   color: #1fcdff;
 }
+
 .logo p {
   letter-spacing: 0.5px;
   margin-top: -10px;
@@ -140,15 +157,18 @@ body {
   font-weight: 300;
   text-transform: lowercase;
 }
+
 .logo a {
   font-size: 40px;
   cursor: pointer;
   color: #fff;
   text-decoration: none;
 }
+
 #menu a:active {
   color: #1fcdff;
 }
+
 #menu select {
   display: none;
 }
@@ -157,22 +177,27 @@ body {
   border: 0;
   color: #1fcdff;
 }
+
 #menu .active a:focus {
   outline: none;
   border: none;
 }
+
 #menu .active a:active {
   outline: none;
   border: none;;
 }
+
 #menu .active a:link {
   outline: none;
   border: none;
 }
+
 #menu .active a:visited {
   outline: none;
   border: none;
 }
+
 #menu li {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -187,18 +212,22 @@ body {
   text-transform: uppercase;
   font-weight: 700;
 }
+
 #menu li:last-child {
   border-right: 0;
   padding-right: 0px;
 }
+
 #menu {
   margin-top: 40px;
   float: right;
 }
+
 #menu li a {
   color: #fff;
   text-decoration: none;
 }
+
 #menu li a:hover {
   border: none;
   outline: none;
@@ -213,27 +242,33 @@ body {
 #mobilemenu {
   display: none;
 }
+
 #mobilemenu ul,
 #mobilemenu ul li {
   list-style-type: none;
   padding: 0;
 }
+
 #mobilemenu ul {
   margin: 10px auto 35px;
 }
+
 #mobilemenu ul li {
   margin: 10px 0;
 }
+
 #mobilemenu a {
   font-size: 15px;
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
 }
+
 #mobilemenu a:hover {
   color: #fff;
   text-decoration: none;
 }
+
 #nav-icon4 {
   display: none;
   width: 30px;
@@ -335,24 +370,29 @@ body {
   .logocnt {
     float: left;
   }
+
   #nav-icon4 {
     display: block;
   }
+
   .default {
     background: rgba(0,0,0,.9);
   }
+
   #menu {
     display: none;
   }
+
   #network-section h2, #team-section h2 {
     margin-top: 280px;
     margin-bottom: 100px;
   }
+
   .soc ul li {
     margin-bottom: 20px;
   }
-}
 
+}
 
 #what-is-section h2,
 #technology-section h2,
@@ -364,10 +404,12 @@ body {
   margin-bottom: 20px;
   font-weight: 700;
 }
+
 #what-is-section h2 span {
   color: #1fcdff;
   font-weight: 700;
 }
+
 #what-is-section h3,
 #crowdfunding-section h3 {
   font-weight: 300;
@@ -378,11 +420,13 @@ body {
 #what-is-section {
   margin-top: 25px;
 }
+
 #what-is-section h3 {
   text-align: center;
   font-family: 'Roboto', 'sans-serif';
   font-size: 28px;
 }
+
 #what-is-section h4 {
   margin-top: 16px;
   text-align: center;
@@ -416,9 +460,11 @@ body {
   font-weight: 700;
   margin-top: -10px;
 }
+
 #team-section h2 {
   margin: 50px auto 30px;
 }
+
 .footer h2 {
   margin-bottom: 0;
 }
@@ -427,6 +473,7 @@ body {
 #crowdfunding-section h2 {
   margin: 40px 0 50px;
 }
+
 #technology-section img {
   max-height: 100px;
   margin: 15px 35px;
@@ -458,27 +505,36 @@ body {
 iframe {
   width: 100%;
 }
+
 /*
 @media (max-width: 767px) {
   #iframe1 {
     height: 302px;
   }
+
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
   #iframe1 {
     height: 302px;
   }
+
 }
+
 @media (min-width: 992px) and (max-width: 1199px) {
   #iframe1 {
     height: 391px;
   }
+
 }
+
 @media (min-width: 1200px) {
   #iframe1 {
     height: 472px;
   }
+
 }
+
 */
 
 .centPic {
@@ -491,6 +547,7 @@ iframe {
   overflow: hidden;
   height: 100%;
 }
+
 .centPic:after {
   content: "";
   position: absolute;
@@ -506,6 +563,7 @@ iframe {
   border-bottom: 150px solid white;
   border-left: 3000px solid transparent;
 }
+
 .centPic img {
   display: inline-block;
 }
@@ -521,6 +579,7 @@ iframe {
   -o-background-size: cover;
   background-size: cover;
 }
+
 .line2:after {
   content: "";
   position: absolute;
@@ -536,6 +595,7 @@ iframe {
   border-bottom: 150px solid white;
   border-left: 3000px solid transparent;
 }
+
 .line2:before {
   top: 0;
   display: block;
@@ -612,18 +672,22 @@ iframe {
   text-align: center;
   margin-top: 46px;
 }
+
 .team .b1 {
   padding-left: 0;
 }
+
 .team .b3 {
   padding-right: 0;
 }
+
 .team img {
   margin: 0 auto;
   width: 300px;
   border: 3px solid #1fcdff;
   border-radius: 200px;
 }
+
 .team h4 {
   margin-top: 24px;
   font-size: 28px;
@@ -631,6 +695,7 @@ iframe {
   font-family: 'Roboto', 'sans-serif';
   font-weight: 300;
 }
+
 .team h5 {
   margin-top: -3px;
   font-size: 16px;
@@ -638,6 +703,7 @@ iframe {
   font-family: 'Roboto', 'sans-serif';
   font-weight: 300;
 }
+
 .team p {
   margin-top: 12px;
   font-size: 16px;
@@ -646,12 +712,14 @@ iframe {
   font-weight: 300;
   line-height: 24px;
 }
+
 .team ul {
   margin-top: 2px;
   padding-left: 0px;
   display: inline-block;
   margin: 0 auto;
 }
+
 .team ul li {
   padding: 0 10px;
   float: left;
@@ -659,16 +727,20 @@ iframe {
   font-family: FontAwesome;
   font-size: 15px;
 }
+
 .team ul li a {
   color: #2f2f2f;
 }
+
 .team ul li a:hover {
   color: #1fcdff;
 }
+
 .row {
   margin-right: 0;
   margin-left: 0;
 }
+
 .line3 {
   position: relative;
   width: 100%;
@@ -680,6 +752,7 @@ iframe {
   -o-background-size: cover;
   background-size: cover;
 }
+
 .line3:after {
   content: "";
   position: absolute;
@@ -696,6 +769,7 @@ iframe {
   border-bottom: 150px solid white;
   border-left: 3000px solid transparent;
 }
+
 .line3:before {
   top: 0;
   display: block;
@@ -725,15 +799,19 @@ iframe {
     margin-top: 246px;
     margin-bottom: 164px;
   }
+
 }
+
 */
 
 #network-section .col-md-6 img {
   max-height: 263px;
 }
+
 #network-section .col-md-12 img {
   max-height: 443px;
 }
+
 .line4 {
   position: relative;
   width: 100%;
@@ -745,6 +823,7 @@ iframe {
   -o-background-size: cover;
   background-size: cover;
 }
+
 .line4:after {
   content: "";
   position: absolute;
@@ -761,6 +840,7 @@ iframe {
   border-bottom: 150px solid white;
   border-left: 3000px solid transparent;
 }
+
 .line4:before {
   top: 0;
   display: block;
@@ -778,12 +858,15 @@ iframe {
   border-top: 194px solid white;
   border-right: 3000px solid transparent;
 }
+
 /*
 @media (max-width: 533px) {
   #community-section .soc {
     margin-bottom: 80px;
   }
+
 }
+
 */
 .line7 {
   position: relative;
@@ -796,6 +879,7 @@ iframe {
   -o-background-size: cover;
   background-size: cover;
 }
+
 .line7:before {
   top: 0;
   display: block;
@@ -813,10 +897,12 @@ iframe {
   border-top: 150px solid white;
   border-right: 3000px solid transparent;
 }
+
 .footer {
   margin-top: 40px;
   min-height: 435px;
 }
+
 .footer h3 {
   margin-top: 159px;
   font-size: 28px;
@@ -826,6 +912,7 @@ iframe {
   text-align: center;
   margin-bottom: 17px;
 }
+
 .footer p {
   font-size: 16px;
   font-family: 'Roboto', 'sans-serif';
@@ -833,26 +920,27 @@ iframe {
   color: #fff;
   text-align: center;
 }
+
 #community-section .fa {
   font-size: 18px;
   color: #fff;
 }
 
-
 h2 span {
   color: #1fcdff;
 }
-
 
 .soc {
   margin-top: 42px;
   text-align: center;
 }
+
 .soc ul {
   margin-left: 24px;
   padding-left: 0;
   display: inline-block;
 }
+
 .soc ul li {
   margin-bottom: 20px;
   margin-right: 23px;
@@ -862,6 +950,7 @@ h2 span {
   list-style: none;
   position: relative;
 }
+
 .soc ul li a {
   width: 52px;
   height: 52px;
@@ -869,11 +958,13 @@ h2 span {
   border-radius: 50px;
   display: block;
 }
+
 .soc ul li a:hover {
   cursor: pointer;
   border: 2px solid #1c1c1c;
   background: #1c1c1c;
 }
+
 .soc ul li a span {
   position: absolute;
   width: 18px;
@@ -892,25 +983,30 @@ h2 span {
   height: 100%;
   background: #101010;
 }
+
 .downLine {
   margin-bottom: 35px;
   margin-top: 30px;
 }
+
 .downLine p {
   font-size: 14px;
   font-family: 'Roboto', 'sans-serif';
   font-weight: 300;
   color: #fff;
 }
+
 #downMenu li {
   height: 16px;
   border-right: 1px solid #343434;
   float: left;
   list-style: none;
 }
+
 #downMenu li:last-child {
   border-right: none;
 }
+
 #downMenu li a {
   padding: 5px;
   text-decoration: none;
@@ -921,62 +1017,79 @@ h2 span {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 #downMenu li:last-child a {
   padding-right: 0;
 }
+
 #downMenu li a:hover {
   color: #1fcdff;
 }
+
 /*responsive*/
 /*
 @media screen and (max-width: 991px) {
   #network-section h2 {
     margin-top: 30px;
   }
+
   #technology-section img {
     max-width: 100%;
     margin: 15px auto 0;
     display: block;
   }
+
   #network-section .col-md-12 img {
     margin: 0 auto 20px;
   }
+
   .downLine .text-right {
     text-align: center;
   }
+
   #downMenu {
     float: none;
     padding: 0;
     display: inline-block;
   }
+
   #downMenu ul li {
     float: none;
     text-align: center;
   }
+
   #downMenu li a {
     padding: 5px;
   }
+
   .team ul {
     margin-bottom: 35px;
   }
+
 }
 
 @media (max-width: 580px) {
   .footer .read-more, #team-section .read-more, #network-section .read-more {
     width: 100%;
   }
+
   .see-video,
   .header .read-more {
     display: block;
     margin-bottom: 20px;
   }
+
   .header h1 {
     font-size: 50px;
   }
+
 }
+
 @media (max-width: 320px) {
   .header h1 {
     font-size: 45px;
   }
+
 }
+
 */
