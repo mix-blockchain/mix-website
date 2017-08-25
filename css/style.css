@@ -825,7 +825,7 @@ iframe {
 }
 
 */
-.line7 {
+#community-section {
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -837,7 +837,7 @@ iframe {
   background-size: cover;
 }
 
-.line7:before {
+#community-section:before {
   top: 0;
   display: block;
   content: "";
