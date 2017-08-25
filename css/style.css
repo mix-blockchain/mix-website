@@ -27,13 +27,7 @@ body {
   padding-bottom: 0;
 }
 
-.logo img {
-  position: relative;
-  top: -3px;
-  left: 5px;
-}
-
-.logo {
+#fixed-menu .logo {
   margin-top: 20px;
   margin-bottom: 20px;
   font-family: 'Roboto', 'sans-serif';
@@ -43,24 +37,22 @@ body {
   color: #fff;
 }
 
-.logo span {
-  color: #1fcdff;
-}
-
-.logo p {
-  letter-spacing: 0.5px;
-  margin-top: -10px;
-  font-family: 'Roboto', 'sans-serif';
-  font-size: 12px;
-  font-weight: 300;
-  text-transform: lowercase;
-}
-
-.logo a {
+#fixed-menu .logo a {
   font-size: 40px;
   cursor: pointer;
   color: #fff;
   text-decoration: none;
+}
+
+#fixed-menu .logo a span {
+  color: #1fcdff;
+}
+
+#fixed-menu .logo a svg {
+  width: 35px;
+  position: relative;
+  top: 3px;
+  left: -3px;
 }
 
 #menu a:active {
@@ -252,14 +244,6 @@ body {
   top: 18px;
   left: 0;
 }
-
-.logocnt svg {
-  width: 35px;
-  position: relative;
-  top: 3px;
-  left: -3px;
-}
-
 
 #header-section {
   position: relative;
@@ -1004,7 +988,7 @@ h2 span {
 
 
 @media screen and (max-width: 1199px) {
-  .logocnt {
+  .logo a {
     float: left;
   }
 
