@@ -344,7 +344,7 @@ body {
   #menu {
     display: none;
   }
-  .Ama {
+  #network-section h2, #team-section h2 {
     margin-top: 280px;
     margin-bottom: 100px;
   }
@@ -713,33 +713,20 @@ iframe {
   border-top: 194px solid white;
   border-right: 3000px solid transparent;
 }
-.Ama {
+
+#network-section h2, #team-section h2 {
   margin-top: 201px;
   margin-bottom: 133px;
 }
+
 /*
 @media screen and (min-device-width: 1919px) {   
-  .Ama {
+  #network-section h2, #team-section h2 {
     margin-top: 246px;
     margin-bottom: 164px;
   }
 }
 */
-.Ama h3 {
-  font-size: 42px;
-  text-align: center;
-  color: #fff;
-  font-family: 'Roboto', 'sans-serif';
-  font-weight: 400;
-  margin-top: 17px;
-}
-.Ama p {
-  font-size: 16px;
-  text-align: center;
-  color: #fff;
-  font-family: 'Roboto', 'sans-serif';
-  font-weight: 300;
-}
 
 #network-section .col-md-6 img {
   max-height: 263px;
