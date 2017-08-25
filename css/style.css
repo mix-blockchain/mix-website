@@ -429,6 +429,103 @@ body {
   display: block;
 }
 
+#benefits-section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  background: url(../images/links/benefits.jpg) top center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+#benefits-section:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom: 150px solid white;
+  border-left: 3000px solid transparent;
+}
+
+#benefits-section:before {
+  top: 0;
+  display: block;
+  content: "";
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-top: 194px solid white;
+  border-right: 3000px solid transparent;
+}
+
+#benefits-section .container {
+  margin-bottom: 145px;
+  margin-top: 250px;
+}
+
+#benefits-section h4 {
+  margin-top: 17px;
+  font-family: 'Roboto', 'sans-serif';
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#benefits-section p {
+  font-family: 'Roboto', 'sans-serif';
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 12px;
+  line-height: 23px;
+}
+
+#benefits-section .outer {
+  border: 2px solid #fff;
+  border-radius: 40px;
+  color: #fff;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#benefits-section .fa {
+  font-family: FontAwesome;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 24px;
+  top: 50%;
+  left: 50%;
+  margin-top: -12px;
+  margin-left: -12px;
+}
+
+#benefits-section div {
+  margin-bottom: 30px;
+}
+
 #benefits-section h2 {
   font-family: 'Roboto', 'sans-serif';
   color: #fff;
@@ -438,6 +535,7 @@ body {
   font-weight: 700;
   margin-top: -10px;
 }
+
 
 #network-section h2,
 #team-section h2,
@@ -526,106 +624,6 @@ iframe {
 }
 
 */
-
-.line2 {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  height: 100%;
-  background: url(../images/links/benefits.jpg) top center no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.line2:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  pointer-events: none;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  border-bottom: 150px solid white;
-  border-left: 3000px solid transparent;
-}
-
-.line2:before {
-  top: 0;
-  display: block;
-  content: "";
-  position: absolute;
-  z-index: 1;
-  pointer-events: none;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  border-top: 194px solid white;
-  border-right: 3000px solid transparent;
-}
-
-#benefits-section {
-  color: #fff;
-  text-align: center;
-}
-
-#benefits-section .container {
-  margin-bottom: 145px;
-  margin-top: 250px;
-}
-
-#benefits-section h4 {
-  margin-top: 17px;
-  font-family: 'Roboto', 'sans-serif';
-  font-size: 20px;
-  font-weight: 300;
-}
-
-#benefits-section p {
-  font-family: 'Roboto', 'sans-serif';
-  font-size: 16px;
-  font-weight: 300;
-  margin-top: 12px;
-  line-height: 23px;
-}
-
-#benefits-section .outer {
-  border: 2px solid #fff;
-  border-radius: 40px;
-  color: #fff;
-  width: 80px;
-  height: 80px;
-  position: relative;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#benefits-section .fa {
-  font-family: FontAwesome;
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  line-height: 24px;
-  font-size: 24px;
-  top: 50%;
-  left: 50%;
-  margin-top: -12px;
-  margin-left: -12px;
-}
-
-#benefits-section div {
-  margin-bottom: 30px;
-}
 
 .team {
   text-align: center;
