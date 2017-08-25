@@ -1,4 +1,4 @@
-jQuery(document).ready(function() {
+$(document).ready(function() {
 
   window.addEventListener('scroll', function(e){
     var distanceY = window.pageYOffset || document.documentElement.scrollTop,
@@ -38,15 +38,15 @@ jQuery(document).ready(function() {
     $(window).trigger('hashchange');
   }
 
-  jQuery('#nav-icon4').click(function(){
-    jQuery(this).toggleClass('open');
-    jQuery('#mobilemenu').toggleClass('open-nav');
+  $('#nav-icon4').click(function(){
+    $(this).toggleClass('open');
+    $('#mobilemenu').toggleClass('open-nav');
   });
 
-  jQuery("#iframe1").height(jQuery("#iframe1").width() * 0.4);
+  $("#iframe1").height($("#iframe1").width() * 0.4);
 
-  jQuery(window).resize(function() {
-    jQuery("#iframe1").height(jQuery("#iframe1").width() * 0.4);
+  $(window).resize(function() {
+    $("#iframe1").height($("#iframe1").width() * 0.4);
   });
 
 });
