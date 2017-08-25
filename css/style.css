@@ -698,7 +698,7 @@ iframe {
   margin-left: 0;
 }
 
-.line3 {
+#network-section {
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -710,7 +710,7 @@ iframe {
   background-size: cover;
 }
 
-.line3:after {
+#network-section:after {
   content: "";
   position: absolute;
   z-index: 1;
@@ -727,7 +727,7 @@ iframe {
   border-left: 3000px solid transparent;
 }
 
-.line3:before {
+#network-section:before {
   top: 0;
   display: block;
   content: "";
