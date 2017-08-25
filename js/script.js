@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  window.addEventListener('scroll', function(e){
+  window.addEventListener('scroll', function(e) {
     var distanceY = window.pageYOffset || document.documentElement.scrollTop,
     shrinkOn = 100,
     header = document.querySelector('#fixed-menu');
@@ -38,7 +38,7 @@ $(document).ready(function() {
     $(window).trigger('hashchange');
   }
 
-  $('#nav-icon').click(function(){
+  $('#nav-icon').click(function() {
     $(this).toggleClass('open');
     $('#mobilemenu').toggleClass('open-nav');
   });
