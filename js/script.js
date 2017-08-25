@@ -3,13 +3,13 @@ $(document).ready(function() {
   window.addEventListener('scroll', function(e){
     var distanceY = window.pageYOffset || document.documentElement.scrollTop,
     shrinkOn = 100,
-    header = document.querySelector('.default');
+    header = document.querySelector('#fixed-menu');
 
     if (distanceY > shrinkOn) {
-      $(header).addClass('changeit');
+      $(header).addClass('dark');
     } else {
-      if ($(header).hasClass('changeit')) {
-        $(header).removeClass('changeit');
+      if ($(header).hasClass('dark')) {
+        $(header).removeClass('dark');
       }
     }
   });
