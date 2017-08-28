@@ -839,13 +839,13 @@ iframe {
 }
 
 .soc {
-  margin-top: 42px;
+  margin-top: 30px;
   text-align: center;
 }
 
 .soc ul {
   display: inline-block;
-  margin: 0;
+  margin: 0 0 10px 0;
   padding: 0;
 }
 
