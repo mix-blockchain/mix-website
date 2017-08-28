@@ -321,7 +321,7 @@ body {
   color: #fff;
 }
 
-.read-more {
+.call-to-action {
   background: #1fcdff;
   color: #fff;
   text-transform: uppercase;
@@ -333,19 +333,19 @@ body {
   transition: .3s ease all;
 }
 
-.read-more:hover,
-.read-more:focus {
+.call-to-action:hover,
+.call-to-action:focus {
   text-decoration: none;
   background: #fff;
   color: #434343;
 }
 
-.footer .read-more,
-#team-section .read-more,
-#network-section .read-more {
+.footer .call-to-action,
+#team-section .call-to-action,
+#network-section .call-to-action {
   display: block;
   width: 40%;
-  margin: auto;
+  margin: 40px auto;
   text-align: center;
 }
 
@@ -889,14 +889,13 @@ h2 span {
 }
 
 .soc ul {
-  margin-left: 24px;
-  padding-left: 0;
   display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
 .soc ul li {
-  margin-bottom: 20px;
-  margin-right: 23px;
+  margin: 0 10px;
   float: left;
   text-align: center;
   text-decoration: none;
@@ -1038,12 +1037,12 @@ h2 span {
 }
 
 @media (max-width: 580px) {
-  .footer .read-more, #team-section .read-more, #network-section .read-more {
+  .footer .call-to-action, #team-section .call-to-action, #network-section .call-to-action {
     width: 100%;
   }
 
   .see-video,
-  .header .read-more {
+  .header .call-to-action {
     display: block;
     margin-bottom: 20px;
   }
