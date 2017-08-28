@@ -19,7 +19,7 @@ $(document).ready(function() {
     $.smoothScroll({
       // Replace '#/' with '#' to go to the correct target
       scrollTarget: location.hash.replace(/^\#\/?/, '#'),
-      offset: -150
+      offset: -100
     });
   });
   $('a[href*="#"]')

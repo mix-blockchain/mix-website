@@ -302,6 +302,44 @@ body {
   width: 50%;
 }
 
+#what-is-section h2,
+#benefits-section h2,
+#technology-section h2,
+#network-section h2,
+#crowdfunding-section h2,
+#team-section h2,
+#community-section h2 {
+  font-family: 'Roboto', 'sans-serif';
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  padding: 20px;
+  margin: 0;
+}
+
+#what-is-section h2,
+#technology-section h2,
+#crowdfunding-section h2 {
+  color: #2f2f2f;
+}
+
+#benefits-section h2,
+#network-section h2,
+#team-section h2,
+#community-section h2 {
+  color: #fff;
+}
+
+h2 span {
+  color: #1fcdff;
+}
+
+#team-section .container.top,
+#network-section .container {
+  padding-top: 200px;
+  padding-bottom: 80px;
+}
+
 .see-video {
   background: #fff;
   color: #434343;
@@ -342,7 +380,8 @@ body {
 
 #network-section .call-to-action,
 #crowdfunding-section .call-to-action,
-#team-section .call-to-action {
+#team-section .call-to-action,
+#community-section .call-to-action {
   display: block;
   width: 40%;
   margin: 40px auto;
@@ -351,18 +390,6 @@ body {
 
 #community-section {
   margin-top: 50px;
-}
-
-
-#what-is-section h2,
-#technology-section h2,
-#crowdfunding-section h2 {
-  font-family: 'Roboto', 'sans-serif';
-  color: #2f2f2f;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 20px;
-  font-weight: 700;
 }
 
 #what-is-section h3,
@@ -522,37 +549,6 @@ body {
   margin-bottom: 30px;
 }
 
-#benefits-section h2 {
-  font-family: 'Roboto', 'sans-serif';
-  color: #fff;
-  text-transform: uppercase;
-  text-align: center;
-  margin-bottom: 70px;
-  font-weight: 700;
-  margin-top: -10px;
-}
-
-
-#network-section h2,
-#team-section h2,
-.footer h2 {
-  font-family: 'Roboto', 'sans-serif';
-  color: #fff;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 700;
-  margin-top: -10px;
-}
-
-.footer h2 {
-  margin-bottom: 0;
-}
-
-#technology-section h2,
-#crowdfunding-section h2 {
-  margin: 40px 0 50px;
-}
-
 #technology-section img {
   max-height: 100px;
   margin: 15px 35px;
@@ -618,7 +614,6 @@ iframe {
 
 .team {
   text-align: center;
-  margin-top: 46px;
 }
 
 .team img {
@@ -728,25 +723,9 @@ iframe {
   border-right: 3000px solid transparent;
 }
 
-#network-section h2, #team-section h2 {
-  margin-top: 120px;
-  padding: 80px;
-}
-
 #network-section .row {
   margin-bottom: 30px;
 }
-
-/*
-@media screen and (min-device-width: 1919px) {   
-  #network-section h2, #team-section h2 {
-    margin-top: 246px;
-    margin-bottom: 164px;
-  }
-
-}
-
-*/
 
 #network-section .col-md-6 img {
   max-height: 263px;
@@ -846,36 +825,9 @@ iframe {
   margin-top: 160px;
 }
 
-
-.footer {
-  margin-top: 40px;
-}
-
-.footer h3 {
-  margin-top: 159px;
-  font-size: 28px;
-  font-family: 'Roboto', 'sans-serif';
-  font-weight: 400;
-  color: #fff;
-  text-align: center;
-  margin-bottom: 17px;
-}
-
-.footer p {
-  font-size: 16px;
-  font-family: 'Roboto', 'sans-serif';
-  font-weight: 300;
-  color: #fff;
-  text-align: center;
-}
-
 #community-section .fa {
   font-size: 18px;
   color: #fff;
-}
-
-h2 span {
-  color: #1fcdff;
 }
 
 .soc {
@@ -983,11 +935,6 @@ h2 span {
     display: none;
   }
 
-  #network-section h2, #team-section h2 {
-    margin-top: 280px;
-    margin-bottom: 100px;
-  }
-
   .soc ul li {
     margin-bottom: 20px;
   }
@@ -996,10 +943,6 @@ h2 span {
 
 /*
 @media screen and (max-width: 991px) {
-  #network-section h2 {
-    margin-top: 30px;
-  }
-
   #technology-section img {
     max-width: 100%;
     margin: 15px auto 0;
@@ -1032,10 +975,6 @@ h2 span {
 }
 
 @media (max-width: 580px) {
-  .footer .call-to-action, #team-section .call-to-action, #network-section .call-to-action {
-    width: 100%;
-  }
-
   .see-video,
   .header .call-to-action {
     display: block;
