@@ -306,7 +306,7 @@ body {
 #benefits-section h2,
 #technology-section h2,
 #network-section h2,
-#crowdfunding-section h2,
+#crowdfund-section h2,
 #team-section h2,
 #community-section h2 {
   font-family: 'Roboto', 'sans-serif';
@@ -321,13 +321,13 @@ body {
 #benefits-section h2,
 #technology-section h2,
 #network-section h2,
-#crowdfunding-section h2 {
+#crowdfund-section h2 {
   margin-bottom: 40px;
 }
 
 #what-is-section h2,
 #technology-section h2,
-#crowdfunding-section h2 {
+#crowdfund-section h2 {
   color: #2f2f2f;
 }
 
@@ -387,7 +387,7 @@ h2 span {
 }
 
 #network-section .call-to-action,
-#crowdfunding-section .call-to-action,
+#crowdfund-section .call-to-action,
 #team-section .call-to-action,
 #community-section .call-to-action {
   display: block;
@@ -401,7 +401,7 @@ h2 span {
 }
 
 #what-is-section h3,
-#crowdfunding-section h3 {
+#crowdfund-section h3 {
   font-weight: 300;
   line-height: 30px;
   margin-bottom: 20px;
@@ -563,13 +563,13 @@ h2 span {
 }
 
 #technology-section,
-#crowdfunding-section {
+#crowdfund-section {
   margin-top: 8px;
   text-align: center;
 }
 
 #technology-section,
-#crowdfunding-section h3 {
+#crowdfund-section h3 {
   font-size: 28px;
   color: #2f2f2f;
   font-family: 'Roboto', 'sans-serif';
@@ -577,7 +577,7 @@ h2 span {
 }
 
 #technology-section,
-#crowdfunding-section h4 {
+#crowdfund-section h4 {
   margin-top: 15px;
   font-size: 16px;
   color: #2f2f2f;
