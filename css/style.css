@@ -622,12 +622,13 @@ iframe {
 
 .team {
   text-align: center;
+  margin-top: 40px;
 }
 
 .team img {
   margin: 0 auto;
   width: 300px;
-  border: 3px solid #1fcdff;
+  border: 6px solid #1fcdff;
   border-radius: 200px;
 }
 
