@@ -318,6 +318,14 @@ body {
 }
 
 #what-is-section h2,
+#benefits-section h2,
+#technology-section h2,
+#network-section h2,
+#crowdfunding-section h2 {
+  margin-bottom: 40px;
+}
+
+#what-is-section h2,
 #technology-section h2,
 #crowdfunding-section h2 {
   color: #2f2f2f;
@@ -501,8 +509,8 @@ h2 span {
 }
 
 #benefits-section .container {
-  margin-bottom: 145px;
-  margin-top: 250px;
+  padding-top: 200px;
+  padding-bottom: 80px;
 }
 
 #benefits-section h4 {
