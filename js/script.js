@@ -25,7 +25,7 @@ $(document).ready(function() {
   });
 
   $('a').click(function() {
-    $('#nav-icon').addClass('open');
+    $('#nav-icon').removeClass('open');
     $('#mobilemenu').removeClass('open-nav');
   });
 
