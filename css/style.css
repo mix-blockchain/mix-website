@@ -502,6 +502,10 @@ h3 {
   padding-bottom: 80px;
 }
 
+#benefits-section .benefit {
+  padding: 30px;
+}
+
 #benefits-section h4 {
   margin-top: 17px;
   font-size: 20px;
@@ -536,10 +540,6 @@ h3 {
   left: 50%;
   margin-top: -12px;
   margin-left: -12px;
-}
-
-#benefits-section div {
-  margin-bottom: 30px;
 }
 
 #technology-section img {
