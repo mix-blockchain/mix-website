@@ -290,12 +290,13 @@ body {
 }
 
 @media (max-width: 767px) {
-  .see-video,
-  .call-to-action,
+  #header-section .row .see-video,
+  #header-section .row .call-to-action,
   #network-section .row .call-to-action,
   #crowdfund-section .row .call-to-action,
   #team-section .row .call-to-action,
   #community-section .row .call-to-action {
+    display: block;
     width: 100%;
     margin-bottom: 20px;
   }
