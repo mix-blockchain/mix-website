@@ -12,6 +12,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 body {
   font-family: 'Roboto', 'sans-serif';
+  font-weight: 300;
 }
 
 #fixed-menu {
@@ -30,7 +31,6 @@ body {
 #fixed-menu .logo {
   margin-top: 20px;
   margin-bottom: 20px;
-  font-family: 'Roboto', 'sans-serif';
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
@@ -185,7 +185,6 @@ body {
   padding-left: 17px;
   padding-right: 16px;
   float: left;
-  font-family: 'Roboto', 'sans-serif';
   font-size: 14px;
   color: #fff;
   list-style: none;
@@ -292,7 +291,6 @@ body {
 .header h2 {
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
-  font-weight: 300;
   margin: 60px auto 80px auto;
   font-size: 40px;
 }
@@ -309,7 +307,6 @@ body {
 #crowdfund-section h2,
 #team-section h2,
 #community-section h2 {
-  font-family: 'Roboto', 'sans-serif';
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -352,7 +349,6 @@ h2 span {
   background: #fff;
   color: #434343;
   text-transform: uppercase;
-  font-family: 'Roboto', 'sans-serif';
   font-weight: 700;
   padding: 10px 70px;
   border-radius: 5px;
@@ -371,7 +367,6 @@ h2 span {
   background: #1fcdff;
   color: #fff;
   text-transform: uppercase;
-  font-family: 'Roboto', 'sans-serif';
   font-weight: 700;
   padding: 10px 70px;
   border-radius: 5px;
@@ -400,10 +395,12 @@ h2 span {
   margin-bottom: 40px;
 }
 
-#what-is-section h3,
-#crowdfund-section h3 {
+h3 {
   font-weight: 300;
-  line-height: 30px;
+  text-align: center;
+  font-size: 24px;
+  color: #2f2f2f;
+  line-height: 40px;
   margin-bottom: 20px;
 }
 
@@ -411,18 +408,10 @@ h2 span {
   margin-top: 25px;
 }
 
-#what-is-section h3 {
-  text-align: center;
-  font-family: 'Roboto', 'sans-serif';
-  font-size: 28px;
-}
-
 #what-is-section h4 {
   margin-top: 16px;
   text-align: center;
-  font-family: 'Roboto', 'sans-serif';
   font-size: 16px;
-  font-weight: 300;
 }
 
 #what-is-section .what-is-img {
@@ -515,15 +504,11 @@ h2 span {
 
 #benefits-section h4 {
   margin-top: 17px;
-  font-family: 'Roboto', 'sans-serif';
   font-size: 20px;
-  font-weight: 300;
 }
 
 #benefits-section p {
-  font-family: 'Roboto', 'sans-serif';
   font-size: 16px;
-  font-weight: 300;
   margin-top: 12px;
   line-height: 23px;
 }
@@ -569,20 +554,10 @@ h2 span {
 }
 
 #technology-section,
-#crowdfund-section h3 {
-  font-size: 28px;
-  color: #2f2f2f;
-  font-family: 'Roboto', 'sans-serif';
-  font-weight: 400;
-}
-
-#technology-section,
 #crowdfund-section h4 {
   margin-top: 15px;
   font-size: 16px;
   color: #2f2f2f;
-  font-family: 'Roboto', 'sans-serif';
-  font-weight: 300;
 }
 
 iframe {
@@ -636,24 +611,18 @@ iframe {
   margin-top: 24px;
   font-size: 28px;
   color: #2f2f2f;
-  font-family: 'Roboto', 'sans-serif';
-  font-weight: 300;
 }
 
 .team h5 {
   margin-top: -3px;
   font-size: 16px;
   color: #a9a9a9;
-  font-family: 'Roboto', 'sans-serif';
-  font-weight: 300;
 }
 
 .team p {
   margin-top: 12px;
   font-size: 16px;
   color: #666;
-  font-family: 'Roboto', 'sans-serif';
-  font-weight: 300;
   line-height: 24px;
 }
 
@@ -909,8 +878,6 @@ iframe {
   padding: 5px;
   text-decoration: none;
   font-size: 14px;
-  font-family: 'Roboto', 'sans-serif';
-  font-weight: 300;
   color: #fff;
   margin-top: 10px;
   margin-bottom: 10px;
