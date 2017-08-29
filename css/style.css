@@ -252,7 +252,6 @@ body {
   text-decoration: none;
 }
 
-
 #header-section {
   position: relative;
   width: 100%;
@@ -263,22 +262,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-#header-section:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  pointer-events: none;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  border-bottom: 150px solid white;
-  border-left: 3000px solid transparent;
 }
 
 .header {
@@ -452,22 +435,6 @@ h3 {
   height: 100%;
 }
 
-#what-is-section .what-is-img:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  pointer-events: none;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  border-bottom: 150px solid white;
-  border-left: 3000px solid transparent;
-}
-
 #what-is-section .what-is-img img {
   display: inline-block;
 }
@@ -484,22 +451,6 @@ h3 {
   background-size: cover;
   color: #fff;
   text-align: center;
-}
-
-#benefits-section:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  pointer-events: none;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  border-bottom: 150px solid white;
-  border-left: 3000px solid transparent;
 }
 
 #benefits-section:before,
@@ -521,6 +472,26 @@ h3 {
   background-size: cover;
   border-top: 150px solid white;
   border-right: 3000px solid transparent;
+}
+
+#benefits-section:after,
+#network-section:after,
+#team-section .top:after,
+#header-section:after,
+#what-is-section .what-is-img:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom: 150px solid white;
+  border-left: 3000px solid transparent;
 }
 
 #benefits-section .container {
@@ -696,23 +667,6 @@ iframe {
   background-size: cover;
 }
 
-#network-section:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  pointer-events: none;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 240px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  border-bottom: 150px solid white;
-  border-left: 3000px solid transparent;
-}
-
 #network-section img {
   margin-bottom: 30px;
 }
@@ -727,23 +681,6 @@ iframe {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-#team-section .top:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  pointer-events: none;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 240px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  border-bottom: 150px solid white;
-  border-left: 3000px solid transparent;
 }
 
 #community-section {
