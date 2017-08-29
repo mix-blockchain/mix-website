@@ -712,14 +712,13 @@ iframe {
 }
 
 .soc ul {
-  display: inline-block;
   margin: 0 0 10px 0;
   padding: 0;
 }
 
 .soc ul li {
-  margin: 0 10px;
-  float: left;
+  display: inline-block;
+  margin: 10px;
   text-align: center;
   text-decoration: none;
   list-style: none;
