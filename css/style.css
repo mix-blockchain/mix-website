@@ -543,8 +543,15 @@ h3 {
 
 @media screen and (max-width: 1199px) {
   #technology-section img {
-    max-width: 200px;
+    max-height: 80px;
     margin: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #technology-section img {
+    max-height: 70px;
+    margin: 10px;
   }
 }
 
