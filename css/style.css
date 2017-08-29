@@ -278,6 +278,12 @@ body {
   font-size: 70px;
 }
 
+@media screen and (max-width: 1199px) {
+  #header-section {
+    padding-bottom: 80px;
+  }
+}
+
 @media (max-width: 767px) {
   #header-section .row .see-video,
   #header-section .row .call-to-action,
@@ -299,7 +305,6 @@ body {
   .header h1 {
     font-size: 40px;
   }
-
 }
 
 .header h2 {
@@ -326,14 +331,6 @@ body {
   font-weight: 700;
   padding: 20px;
   margin: 0;
-}
-
-#what-is-section h2,
-#benefits-section h2,
-#technology-section h2,
-#network-section h2,
-#crowdfund-section h2 {
-  margin-bottom: 40px;
 }
 
 #what-is-section h2,
@@ -544,9 +541,10 @@ h3 {
   margin: 50px;
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   #technology-section img {
     max-width: 200px;
+    margin: 20px;
   }
 }
 
@@ -599,6 +597,10 @@ iframe {
 .team {
   text-align: center;
   margin-top: 40px;
+}
+
+.team div {
+  margin-bottom: 20px;
 }
 
 .team img {
