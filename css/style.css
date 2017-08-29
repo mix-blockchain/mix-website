@@ -288,6 +288,27 @@ body {
   font-size: 70px;
 }
 
+@media (max-width: 767px) {
+  .see-video,
+  .call-to-action,
+  #network-section .row .call-to-action,
+  #crowdfund-section .row .call-to-action {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .header h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 359px) {
+  .header h1 {
+    font-size: 40px;
+  }
+
+}
+
 .header h2 {
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
@@ -547,9 +568,14 @@ h3 {
   margin: 50px;
 }
 
+@media (max-width: 767px) {
+  #technology-section img {
+    max-width: 200px;
+  }
+}
+
 #technology-section,
 #crowdfund-section {
-  margin-top: 8px;
   text-align: center;
 }
 
@@ -701,16 +727,8 @@ iframe {
   border-right: 3000px solid transparent;
 }
 
-#network-section .row {
+#network-section img {
   margin-bottom: 30px;
-}
-
-#network-section .col-md-6 img {
-  max-height: 263px;
-}
-
-#network-section .col-md-12 img {
-  max-height: 443px;
 }
 
 #team-section .top {
@@ -760,15 +778,6 @@ iframe {
   border-right: 3000px solid transparent;
 }
 
-/*
-@media (max-width: 533px) {
-  #community-section .soc {
-    margin-bottom: 80px;
-  }
-
-}
-
-*/
 #community-section {
   position: relative;
   width: 100%;
@@ -891,9 +900,6 @@ iframe {
   color: #1fcdff;
 }
 
-/*responsive*/
-
-
 @media screen and (max-width: 1199px) {
   .logo a {
     float: left;
@@ -910,64 +916,4 @@ iframe {
   #menu {
     display: none;
   }
-
-  .soc ul li {
-    margin-bottom: 20px;
-  }
-
 }
-
-/*
-@media screen and (max-width: 991px) {
-  #technology-section img {
-    max-width: 100%;
-    margin: 15px auto 0;
-    display: block;
-  }
-
-  #network-section .col-md-12 img {
-    margin: 0 auto 20px;
-  }
-
-  #footer-section ul {
-    float: none;
-    padding: 0;
-    display: inline-block;
-  }
-
-  #footer-section ul ul li {
-    float: none;
-    text-align: center;
-  }
-
-  #footer-section ul li a {
-    padding: 5px;
-  }
-
-  .team ul {
-    margin-bottom: 35px;
-  }
-
-}
-
-@media (max-width: 580px) {
-  .see-video,
-  .header .call-to-action {
-    display: block;
-    margin-bottom: 20px;
-  }
-
-  .header h1 {
-    font-size: 50px;
-  }
-
-}
-
-@media (max-width: 320px) {
-  .header h1 {
-    font-size: 45px;
-  }
-
-}
-
-*/
