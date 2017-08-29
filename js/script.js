@@ -24,6 +24,11 @@ $(document).ready(function() {
     $('#mobilemenu').toggleClass('open-nav');
   });
 
+  $('a').click(function() {
+    $('#nav-icon').addClass('open');
+    $('#mobilemenu').removeClass('open-nav');
+  });
+
   $("#iframe1").height($("#iframe1").width() * 0.4);
 
   $(window).resize(function() {
