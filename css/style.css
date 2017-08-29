@@ -21,12 +21,10 @@ body {
   width: 100%;
   height: 100px;
   z-index: 99999;
-  padding-bottom: 20px;
 }
 
 #fixed-menu.dark {
   background: rgba(0,0,0,.9);
-  padding-bottom: 0;
 }
 
 #fixed-menu .logo {
@@ -214,10 +212,18 @@ body {
   color: #1fcdff;
 }
 
-/*mobile menu below*/
 #mobilemenu {
   display: none;
   text-align: center;
+  background: rgba(0,0,0,.9);
+  width: 100%;
+  position: fixed;
+  top: 100px;
+  z-index: 99999;
+}
+
+#mobilemenu.open-nav {
+  display: block;
 }
 
 #mobilemenu ul,
@@ -464,10 +470,6 @@ h3 {
 
 #what-is-section .what-is-img img {
   display: inline-block;
-}
-
-#mobilemenu.open-nav {
-  display: block;
 }
 
 #benefits-section {
@@ -849,15 +851,11 @@ iframe {
 }
 
 @media screen and (max-width: 1199px) {
-  .logo a {
-    float: left;
-  }
-
   #nav-icon {
     display: block;
   }
 
-  .default {
+  #fixed-menu {
     background: rgba(0,0,0,.9);
   }
 
