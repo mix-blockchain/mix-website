@@ -292,7 +292,9 @@ body {
   .see-video,
   .call-to-action,
   #network-section .row .call-to-action,
-  #crowdfund-section .row .call-to-action {
+  #crowdfund-section .row .call-to-action,
+  #team-section .row .call-to-action,
+  #community-section .row .call-to-action {
     width: 100%;
     margin-bottom: 20px;
   }
