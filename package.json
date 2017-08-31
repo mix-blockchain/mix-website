@@ -1,0 +1,29 @@
+{
+  "name": "link-website",
+  "version": "1.0.0",
+  "description": "Promotional website for LINK Blockchain.",
+  "main": "backend.js",
+  "scripts": {
+    "prestart": "browserify frontend.js -o public/bundle.js",
+    "start": "nodejs backend.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/link-blockchain/link-website.git"
+  },
+  "author": "Jonathan Brown <jbrown@link-blockchain.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/link-blockchain/link-website/issues"
+  },
+  "homepage": "https://www.link-blokchain.org",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.4",
+    "font-awesome": "^4.7.0",
+    "highcharts": "^5.0.14",
+    "jquery": "^3.2.1",
+    "jquery-smooth-scroll": "^2.2.0",
+    "web3": "^0.20.0"
+  }
+}

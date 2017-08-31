@@ -8,10 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/jquery.smooth-scroll.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="bundle.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700|Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
   </head>
   <body id="top">
@@ -191,8 +188,16 @@
       </div>
       <div class="row">
         <div class="col-sm-12">
-          <iframe id="iframe2" height="660" src="https://link-blockchain.github.io/link-revenue/" frameBorder="0"></iframe>
-          <a href="http://docs.link-blockchain.org/en/latest/obtain.html#purchase-link" target="_blank" class="call-to-action">Purchase LINK</a>
+          <div id="chart1" style=""></div>
+          <div id="chart2" style=""></div>
+          <code>API: <span id="api"></span><br>
+            Node: <span id="node"></span><br>
+            Network: <span id="network"></span><br>
+            Ethereum: <span id="ethereum"></span><br>
+            Block number: <span id="block-number"></span><br>
+            Revenue start: <span id="start"></span><br>
+            Revenue end: <span id="end"></span><br>
+            Current rate: <span id="current-rate"></span></code>
         </div>
       </div>
     </div><!-- end of #crowdfund-section -->
