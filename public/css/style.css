@@ -735,44 +735,6 @@ iframe {
   margin-left: -9px;
 }
 
-#footer-section {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  height: 100%;
-  background: #101010;
-  padding-bottom: 35px;
-  padding-top: 30px;
-}
-
-#footer-section ul li {
-  height: 16px;
-  border-right: 1px solid #343434;
-  float: left;
-  list-style: none;
-}
-
-#footer-section ul li:last-child {
-  border-right: none;
-}
-
-#footer-section ul li a {
-  padding: 5px;
-  text-decoration: none;
-  font-size: 14px;
-  color: #fff;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-#footer-section ul li:last-child a {
-  padding-right: 0;
-}
-
-#footer-section ul li a:hover {
-  color: #1fcdff;
-}
-
 @media screen and (max-width: 1199px) {
   #nav-icon {
     display: block;
