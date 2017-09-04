@@ -195,12 +195,15 @@ $(function() {
             text: null
         },
         tooltip: {
-            pointFormat: '<b>{point.y} LINK ({point.percentage:.1f} %)</b>'
+            pointFormat: '<b>{point.y} LINK</b> ({point.percentage:.1f}%)'
         },
         plotOptions: {
             pie: {
                 allowPointSelect: true,
-                cursor: 'pointer'
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: false
+                }
             }
         },
         series: [{
