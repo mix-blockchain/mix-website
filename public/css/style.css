@@ -267,7 +267,8 @@ body {
 #header-section {
   color: #fff;
   text-align: center;
-  padding: 100px 0 260px;
+  padding-top: 100px;
+  padding-bottom: 80px;
 }
 
 #header-section h1 {
@@ -276,12 +277,6 @@ body {
   font-weight: 700;
   margin: 40px auto 60px auto;
   font-size: 70px;
-}
-
-@media screen and (max-width: 1199px) {
-  #header-section {
-    padding-bottom: 80px;
-  }
 }
 
 @media (max-width: 767px) {
@@ -470,7 +465,17 @@ h3 {
 }
 
 #header-section::after {
-  bottom: -260px;
+  bottom: -80px;
+}
+
+@media screen and (min-width: 1200px) {
+  #header-section {
+    padding-bottom: 260px;
+  }
+
+  #header-section::after {
+    bottom: -260px;
+  }
 }
 
 #benefits-section .benefit {
