@@ -51,7 +51,7 @@ $(function() {
   
   web3.version.getNode(function(error, result) {
     if (error) {
-      alert(error);
+      console.log(error);
     }
     else {
       $("#crowdfund-section #node").text(result);
@@ -60,7 +60,7 @@ $(function() {
 
   web3.version.getNetwork(function(error, result) {
     if (error) {
-      alert(error);
+      console.log(error);
     }
     else {
       $("#crowdfund-section #network").text(result);
@@ -69,7 +69,7 @@ $(function() {
 
   web3.version.getEthereum(function(error, result) {
     if (error) {
-      alert(error);
+      console.log(error);
     }
     else {
       $("#crowdfund-section #ethereum").text(parseInt(result, 16));
@@ -78,7 +78,7 @@ $(function() {
 
   web3.eth.getBlockNumber(function(error, result) {
     if (error) {
-      alert(error);
+      console.log(error);
     }
     else {
       $("#crowdfund-section #block-number").text(result);
@@ -87,7 +87,7 @@ $(function() {
 
   link_revenue_sol_linkrevenue.startTime(function(error, result) {
     if (error) {
-      alert(error);
+      console.log(error);
     }
     else {
       $("#crowdfund-section #start").text(new Date(result * 1000));
@@ -95,7 +95,7 @@ $(function() {
       $("#crowdfund-section #end").text(new Date(end * 1000));
       web3.eth.getBlock('latest', function(error, result) {
         if (error) {
-          alert(error);
+          console.log(error);
         }
         else {
           var days = 2000 - parseInt((end - result.timestamp) / 86400);
@@ -171,7 +171,7 @@ $(function() {
 
   link_revenue_sol_linkrevenue.getReleased(function(error, result) {
     if (error) {
-      alert(error);
+      console.log(error);
     }
     else {
       var released = parseInt(web3.fromWei(result, "ether"));
