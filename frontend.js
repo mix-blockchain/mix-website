@@ -2,7 +2,7 @@ var $ = require("jquery");
 
 $(function() {
 
-  window.addEventListener('scroll', function(e) {
+  function checkPosition() {
     var distanceY = window.pageYOffset || document.documentElement.scrollTop,
     shrinkOn = 100,
     header = document.querySelector('#fixed-menu');
@@ -14,6 +14,12 @@ $(function() {
         $(header).removeClass('dark');
       }
     }
+  }
+
+  checkPosition();
+
+  window.addEventListener('scroll', function(e) {
+    checkPosition();
   });
 
   var smoothScroll = require("jquery-smooth-scroll");
