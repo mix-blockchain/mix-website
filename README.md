@@ -1,2 +1,2 @@
-# link-website
-Promotional website for Link Blockchain.
+# mix-website
+Promotional website for MIX Blockchain.
