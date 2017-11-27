@@ -44,7 +44,7 @@ body {
 }
 
 #fixed-menu .logo a span {
-  color: #1fcdff;
+  color: #3da7d7;
 }
 
 #fixed-menu .logo a svg {
@@ -94,7 +94,7 @@ body {
 
 #nav-icon.open span,
 #nav-icon:hover span {
-  background: #1fcdff;
+  background: #3da7d7;
 }
 
 #nav-icon span:nth-child(1) {
@@ -145,7 +145,7 @@ body {
 }
 
 #menu a:active {
-  color: #1fcdff;
+  color: #3da7d7;
 }
 
 #menu select {
@@ -154,7 +154,7 @@ body {
 
 #menu .active a {
   border: 0;
-  color: #1fcdff;
+  color: #3da7d7;
 }
 
 #menu .active a:focus {
@@ -209,7 +209,7 @@ body {
 #menu li a:hover {
   border: none;
   outline: none;
-  color: #1fcdff;
+  color: #3da7d7;
 }
 
 #mobilemenu {
@@ -310,7 +310,7 @@ body {
 }
 
 #header-section hr {
-  border-top: 3px solid #1fcdff;
+  border-top: 3px solid #3da7d7;
   width: 50%;
 }
 
@@ -342,7 +342,7 @@ body {
 }
 
 h2 span {
-  color: #1fcdff;
+  color: #3da7d7;
 }
 
 .see-video {
@@ -359,12 +359,12 @@ h2 span {
 .see-video:hover,
 .see-video:focus {
   text-decoration: none;
-  background: #1fcdff;
+  background: #3da7d7;
   color: #fff;
 }
 
 .call-to-action {
-  background: #1fcdff;
+  background: #3da7d7;
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
@@ -564,7 +564,7 @@ iframe {
   margin: 0 auto;
   width: 200px;
   height: 200px;
-  border: 4px solid #1fcdff;
+  border: 4px solid #3da7d7;
   border-radius: 200px;
 }
 
@@ -607,7 +607,7 @@ iframe {
 }
 
 .team ul li a:hover {
-  color: #1fcdff;
+  color: #3da7d7;
 }
 
 .row {
