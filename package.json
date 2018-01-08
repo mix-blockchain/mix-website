@@ -24,6 +24,6 @@
     "highcharts": "^5.0.14",
     "jquery": "^3.2.1",
     "jquery-smooth-scroll": "^2.2.0",
-    "web3": "^0.20.0"
+    "web3": "^0.20.2"
   }
 }
