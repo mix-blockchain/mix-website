@@ -19,11 +19,13 @@
   "homepage": "https://www.link-blokchain.org",
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "browserify": "^15.0.0",
     "express": "^4.15.4",
     "font-awesome": "^4.7.0",
     "highcharts": "^5.0.14",
     "jquery": "^3.2.1",
     "jquery-smooth-scroll": "^2.2.0",
+    "uglify": "^0.1.5",
     "web3": "^0.20.2"
   }
 }
