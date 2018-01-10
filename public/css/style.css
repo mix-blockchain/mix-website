@@ -660,6 +660,31 @@ iframe {
   color: #fff;
 }
 
+#community-section h4 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.community-ad {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+@media (max-width: 569px) {
+  .community-ad {
+    width: 100%;
+  }
+}
+
+.community-ad img {
+  transition: filter .2s;
+}
+
+.community-ad img:hover {
+  filter: invert(100%);
+}
+
 .soc {
   margin-top: 30px;
   text-align: center;
