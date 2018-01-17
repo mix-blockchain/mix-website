@@ -1,7 +1,7 @@
 {
-  "name": "link-website",
+  "name": "mix-website",
   "version": "1.0.0",
-  "description": "Promotional website for LINK Blockchain.",
+  "description": "Promotional website for MIX Blockchain.",
   "main": "backend.js",
   "scripts": {
     "prestart": "browserify frontend.js | uglifyjs > public/bundle.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/link-blockchain/link-website.git"
+    "url": "git+https://github.com/mix-blockchain/mix-website.git"
   },
-  "author": "Jonathan Brown <jbrown@link-blockchain.org>",
+  "author": "Jonathan Brown <jbrown@mix-blockchain.org>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/link-blockchain/link-website/issues"
+    "url": "https://github.com/mix-blockchain/mix-website/issues"
   },
-  "homepage": "https://www.link-blokchain.org",
+  "homepage": "https://www.mix-blockchain.org",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "browserify": "^15.0.0",
