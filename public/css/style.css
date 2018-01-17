@@ -520,6 +520,7 @@ h3 {
 
 #technology-section img {
   max-height: 100px;
+  width: auto;
   margin: 50px;
 }
 
