@@ -5,7 +5,7 @@
   "main": "backend.js",
   "scripts": {
     "prestart": "browserify frontend.js | uglifyjs > public/bundle.js",
-    "start": "nodejs backend.js"
+    "start": "node backend.js"
   },
   "repository": {
     "type": "git",
