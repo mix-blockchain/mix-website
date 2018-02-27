@@ -57,10 +57,9 @@
         <div class="col-lg-9">
           <div class="navmenu">
             <ul id="menu">
-              <li><a href="#what-is">What is MIX?</a></li>
-              <li><a href="#benefits">Benefits</a></li>
               <li><a href="#technology">Technology</a></li>
               <li><a href="#network">Network</a></li>
+              <li><a href="#tools">Tools</a></li>
               <li><a href="#crowdfund">Crowdfund</a></li>
               <li><a href="#team">Team</a></li>
               <li><a href="#community">Community</a></li>
@@ -71,10 +70,9 @@
     </div><!-- end of #fixed-menu -->
     <div id="mobilemenu">
       <ul>
-        <li><a href="#what-is">What is MIX?</a></li>
-        <li><a href="#benefits">Benefits</a></li>
         <li><a href="#technology">Technology</a></li>
         <li><a href="#network">Network</a></li>
+        <li><a href="#tools">Tools</a></li>
         <li><a href="#crowdfund">Crowdfund</a></li>
         <li><a href="#team">Team</a></li>
         <li><a href="#community">Community</a></li>
@@ -108,7 +106,6 @@
     </div><!-- end of #what-is-section -->
     <div id="benefits-section">
       <div class="container">
-        <h2 id="benefits"><span>B</span>enefits</h2>
         <div class="row">
           <div class="benefit col-sm-4">
             <span class="outer"><span class="fa fa-cloud-upload" aria-hidden="true"></span></span>
@@ -140,7 +137,7 @@
           <div class="benefit col-sm-4">
             <span class="outer"><span class="fa fa-code" aria-hidden="true"></span></span>
             <h4>Open Source</h4>
-            <p>All software is licensed with <a href="https://en.wikipedia.org/wiki/Apache_License" target="_blank">Apache 2.0</a></p>
+            <p>All software is licensed with <a href="https://en.wikipedia.org/wiki/Apache_License" target="_blank">Apache 2.0</a>.</p>
           </div>
         </div>
       </div>
@@ -159,25 +156,38 @@
         </div>
       </div>
     </div><!-- end of #technology-section -->
-    <div id="network-section">
+    <div id="network-section-header">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <h2 id="network"><span>N</span>etwork</h2>
+          </div>
+        </div>
+      </div>
+    </div><!-- end of #network-section-header -->
+    <div id="network-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <a href="https://coinomi.com/" target="_blank"><img src="images/coinomi.jpeg" width="944" height="338" alt="Coinomi"></a>
+            <a href="https://wallet.mix.minerpool.net/" target="_blank"><img src="images/myetherwallet.png" width="1250" height="268" alt="MyEtherWallet"></a>
+            <a href="https://graviex.net/markets/mixbtc" target="_blank"><img src="images/graviex.jpeg" width="520" height="293" alt="Graviex"></a>
+            <a href="https://c-cex.com/?p=mix-btc" target="_blank" ><img src="images/c-cex.jpeg" width="768" height="328" alt="C-CEX"></a>
+          </div>
+        </div>
+      </div>
+    </div><!-- end of #network-section -->
+    <div id="tools-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 id="tools"><span>T</span>ools</h2>
             <div class="row">
               <div class="col-sm-6">
                 <a href="https://blocks.mix-blockchain.org" target="_blank"><img src="images/block-explorer1.png" width="2560" height="1440" class="img-responsive" alt="MIX block explorer screenshot 1"></a>
               </div>
               <div class="col-sm-6">
                 <a href="https://blocks.mix-blockchain.org" target="_blank"><img src="images/block-explorer2.png" width="2560" height="1440" class="img-responsive" alt="MIX block explorer screenshot 2"></a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-6">
-                <a href="https://coinomi.com/" target="_blank"><img src="images/coinomi.png" width="2560" height="1440" class="img-responsive" alt="Coinomi screenshot"></a>
-              </div>
-              <div class="col-sm-6">
-                <a href="https://wallet.mix.minerpool.net/" target="_blank"><img src="images/mew.png" width="2560" height="1440" class="img-responsive" alt="MEW screenshot"></a>
               </div>
             </div>
             <div class="row">
@@ -189,7 +199,7 @@
           </div>
         </div>
       </div>
-    </div><!-- end of #network-section -->
+    </div><!-- end of #tools-section -->
     <div id="crowdfund-section">
       <div class="container">
         <div class="row">
@@ -207,11 +217,6 @@
               Revenue start: <span id="start"></span><br>
               Revenue end: <span id="end"></span><br>
               Current rate: <span id="current-rate"></span></code>
-            <h3>Trade MIX</h3>
-            
-            <h3><a href="https://graviex.net/markets/mixbtc" target="_blank"><img src="images/graviex.png" width="200" height="103" alt="Graviex"></a></h3>
-            <h3><a href="https://c-cex.com/?p=mix-btc" target="_blank" ><img src="images/c-cex.png" width="253" height="136" alt="C-CEX"></a></h3>
-            
           </div>
         </div>
       </div>
@@ -321,11 +326,6 @@
             <p>Her greatest passion is Lindy Hopping the World!</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-12">
-            <a href="https://docs.mix-blockchain.org/en/latest/events.html" class="call-to-action" target="_blank">See Events</a>
-          </div>
-        </div>
       </div>
     </div><!-- end of #team-section -->
     <div id="community-section">
@@ -333,7 +333,7 @@
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
             <h2 id="community"><span>C</span>ommunity</h2>
-              <h3><b>MIX</b> is a Gold Sponsor of</h3>
+              <h3><b>MIX</b> was a Gold Sponsor of</h3>
               <a href="https://anarchapulco.com/" target="_blank"><img src="images/anarchapulco.jpeg" width="2550" height="1344" class="img-responsive" alt="Anarchapulco"></a>
           </div>
         </div>
@@ -355,7 +355,7 @@
         </div>
         <div class="row">
           <div class="col-sm-12">
-            <a href="https://docs.mix-blockchain.org/en/latest/" class="call-to-action" target="_blank">Whitepaper</a>
+            <a href="https://docs.mix-blockchain.org/en/latest/events.html" class="call-to-action" target="_blank">See Events</a>
           </div>
         </div>
       </div>

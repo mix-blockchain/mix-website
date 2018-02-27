@@ -282,7 +282,7 @@ body {
 @media (max-width: 767px) {
   #header-section .row .see-video,
   #header-section .row .call-to-action,
-  #network-section .row .call-to-action,
+  #tools-section .row .call-to-action,
   #crowdfund-section .row .call-to-action,
   #team-section .row .call-to-action,
   #community-section .row .call-to-action {
@@ -318,7 +318,9 @@ body {
 #benefits-section h2,
 #technology-section h2,
 #network-section h2,
+#tools-section h2,
 #crowdfund-section h2,
+#network-section-header h2,
 #team-section-header h2,
 #community-section h2 {
   text-transform: uppercase;
@@ -330,12 +332,14 @@ body {
 
 #what-is-section h2,
 #technology-section h2,
+#network-section h2,
 #crowdfund-section h2 {
   color: #2f2f2f;
 }
 
 #benefits-section h2,
-#network-section h2,
+#tools-section h2,
+#network-section-header h2,
 #team-section-header h2,
 #community-section h2 {
   color: white;
@@ -381,7 +385,7 @@ h2 span {
   color: #434343;
 }
 
-#network-section .call-to-action,
+#tools-section .call-to-action,
 #crowdfund-section .call-to-action,
 #team-section .call-to-action,
 #community-section .call-to-action {
@@ -432,8 +436,10 @@ h3 {
 #what-is-section .what-is-img::after,
 #benefits-section::before,
 #benefits-section::after,
-#network-section::before,
-#network-section::after,
+#tools-section::before,
+#tools-section::after,
+#network-section-header::before,
+#network-section-header::after,
 #team-section-header::before,
 #team-section-header::after,
 #community-section::before {
@@ -444,7 +450,8 @@ h3 {
 }
 
 #benefits-section::before,
-#network-section::before,
+#tools-section::before,
+#network-section-header::before,
 #team-section-header::before,
 #community-section::before {
   border-top: 100px solid white;
@@ -454,7 +461,8 @@ h3 {
 #header-section::after,
 #what-is-section .what-is-img::after,
 #benefits-section::after,
-#network-section::after,
+#tools-section::after,
+#network-section-header::after,
 #team-section-header::after {
   border-bottom: 100px solid white;
   border-left: 2000px solid transparent;
@@ -518,27 +526,31 @@ h3 {
   margin-left: -12px;
 }
 
-#technology-section img {
+#technology-section img,
+#network-section img {
   max-height: 100px;
   width: auto;
   margin: 50px;
 }
 
 @media screen and (max-width: 1199px) {
-  #technology-section img {
+  #technology-section img,
+  #network-section img {
     max-height: 80px;
     margin: 20px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  #technology-section img {
+  #technology-section img,
+  #network-section img {
     max-height: 70px;
     margin: 10px;
   }
 }
 
-#technology-section {
+#technology-section,
+#network-section {
   text-align: center;
 }
 
@@ -616,7 +628,7 @@ iframe {
   margin-left: 0;
 }
 
-#network-section {
+#tools-section {
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -628,10 +640,11 @@ iframe {
   background-size: cover;
 }
 
-#network-section img {
+#tools-section img {
   margin-bottom: 30px;
 }
 
+#network-section-header,
 #team-section-header {
   position: relative;
   width: 100%;
