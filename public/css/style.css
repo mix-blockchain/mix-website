@@ -527,15 +527,18 @@ h3 {
 }
 
 #technology-section img,
-#network-section img {
+#network-section img,
+#network-section span {
   max-height: 100px;
   width: auto;
   margin: 50px;
+  display: inline-block;
 }
 
 @media screen and (max-width: 1199px) {
   #technology-section img,
-  #network-section img {
+  #network-section img,
+  #network-section span {
     max-height: 80px;
     margin: 20px;
   }
@@ -543,7 +546,8 @@ h3 {
 
 @media screen and (max-width: 767px) {
   #technology-section img,
-  #network-section img {
+  #network-section img,
+  #network-section span {
     max-height: 70px;
     margin: 10px;
   }
