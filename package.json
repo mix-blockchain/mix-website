@@ -25,7 +25,7 @@
     "highcharts": "^5.0.14",
     "jquery": "^3.2.1",
     "jquery-smooth-scroll": "^2.2.0",
-    "uglify-js": "^3.3.21",
-    "web3": "^0.20.2"
+    "uglify-js": "^3.4.5",
+    "web3": "^0.20.7"
   }
 }
