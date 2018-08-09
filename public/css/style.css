@@ -430,6 +430,10 @@ h2 span {
   text-align: center;
 }
 
+#community-section .call-to-action {
+  margin-bottom: 40px;
+}
+
 h3 {
   font-weight: 300;
   text-align: center;
