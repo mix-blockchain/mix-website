@@ -570,12 +570,20 @@ h3 {
   display: inline-block;
 }
 
+#ecosystem-section img.ledger {
+  max-height: 80px;
+}
+
 @media screen and (max-width: 1199px) {
   #technology-section img,
   #ecosystem-section img,
   #ecosystem-section span {
     max-height: 80px;
     margin: 20px;
+  }
+
+  #ecosystem-section img.ledger {
+    max-height: 64px;
   }
 }
 
@@ -585,6 +593,10 @@ h3 {
   #ecosystem-section span {
     max-height: 70px;
     margin: 10px;
+  }
+
+  #ecosystem-section img.ledger {
+    max-height: 56px;
   }
 }
 
