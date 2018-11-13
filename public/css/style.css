@@ -317,6 +317,7 @@ body {
 @media (max-width: 767px) {
   #header-section .row .see-video,
   #header-section .row .call-to-action,
+  #what-is-section .row .call-to-action,
   #tools-section .row .call-to-action,
   #crowdfund-section .row .call-to-action,
   #team-section .row .call-to-action,
@@ -420,18 +421,14 @@ h2 span {
   color: #434343;
 }
 
+#what-is-section .call-to-action,
 #tools-section .call-to-action,
 #crowdfund-section .call-to-action,
-#team-section .call-to-action,
-#community-section .call-to-action {
+#team-section .call-to-action {
   display: block;
   width: 40%;
   margin: 40px auto 0 auto;
   text-align: center;
-}
-
-#community-section .call-to-action {
-  margin-bottom: 40px;
 }
 
 h3 {
