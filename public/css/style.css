@@ -571,6 +571,11 @@ h3 {
   max-height: 80px;
 }
 
+#ecosystem-section img.stex {
+  max-height: 45px;
+  border: solid black 10px;
+}
+
 @media screen and (max-width: 1199px) {
   #technology-section img,
   #ecosystem-section img,
